@@ -2389,6 +2389,17 @@ input[type="button"].btn-block {
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
+@font-face {
+        font-family: 'AvenirNextCondensedRegular';
+        src: url('../fonts/avenirnextcondensed_regular.eot');
+        src: url('../fonts/avenirnextcondensed_regular.eot') format('embedded-opentype'),
+             url('../fonts/avenirnextcondensed_regular.woff') format('woff'),
+             url('../fonts/avenirnextcondensed_regular.ttf') format('truetype'),
+             url('../fonts/avenirnextcondensed_regular.svg#AvenirNextCondensedRegular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -2400,6 +2411,11 @@ input[type="button"].btn-block {
   line-height: 1;
 }
 
+.avfont {
+  font-family: 'AvenirNextCondensedRegular';
+  font-weight: 500;
+  font-size: 1.5em;
+}
 .glyphicon-asterisk:before {
   content: "\2a";
 }
